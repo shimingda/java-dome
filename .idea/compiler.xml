@@ -7,12 +7,14 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="dbutils" />
+        <module name="error" />
         <module name="java-dome" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="dbutils" target="1.8" />
-      <module name="java-dome" target="1.8" />
+      <module name="dbutils" target="1.5" />
+      <module name="error" target="1.5" />
+      <module name="java-dome" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
