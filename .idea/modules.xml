@@ -3,8 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dbutils/dbutils.iml" filepath="$PROJECT_DIR$/dbutils/dbutils.iml" />
-      <module fileurl="file://$PROJECT_DIR$/error/error.iml" filepath="$PROJECT_DIR$/error/error.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/java-dome.iml" filepath="$PROJECT_DIR$/.idea/java-dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-dome.iml" filepath="$PROJECT_DIR$/java-dome.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn/learn.iml" filepath="$PROJECT_DIR$/learn/learn.iml" />
       <module fileurl="file://$PROJECT_DIR$/leetcode/leetcode.iml" filepath="$PROJECT_DIR$/leetcode/leetcode.iml" />
     </modules>
   </component>
