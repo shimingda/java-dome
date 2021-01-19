@@ -34,7 +34,7 @@ public class SeasonJavapReflection {
 		for (Field field:fields){
 			System.out.println("field name:"+field.getName()+"--is synthetic:" +field.isSynthetic());
 		}
-		SeasonJavap seasonJavap= (SeasonJavap) seasonJavapClass.newInstance();
 
+		SeasonJavap seasonJavap= (SeasonJavap) seasonJavapClass.newInstance();
 	}
 }

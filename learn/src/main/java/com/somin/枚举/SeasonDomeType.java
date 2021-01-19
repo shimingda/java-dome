@@ -1,6 +1,7 @@
 package com.somin.枚举;
 
-public enum SeasonType {
+public enum SeasonDomeType
+{
 	//必须存在
 	SPRING (1,"春天","春暖花开"),
 	SUMMER (2,"夏天","夏雨雨人"),
@@ -11,15 +12,15 @@ public enum SeasonType {
 	public final String name;
 	public final String desc;
 
-	SeasonType(int type,String name, String desc) {
+	SeasonDomeType(int type,String name, String desc) {
 		this.type = type;
 		this.name = name;
 		this.desc = desc;
 	}
 	//责任链
-	public static SeasonType of(int type) throws Exception
+	public static SeasonDomeType of(int type) throws Exception
 	{
-		for (SeasonType season :SeasonType.values()) {
+		for (SeasonDomeType season : SeasonDomeType.values()) {
 			if(type==season.type){
 				return season;
 			}

@@ -8,7 +8,7 @@ public class invoke
 	public static void main(String[] args)
 	{
 		try {
-			Class<?> c = Class.forName("com.somin.枚举.SeasonType");
+			Class<?> c = Class.forName("com.somin.枚举.SeasonDomeType");
 
 			//Class.isEnum()  表明该类是否是枚举类
 			System.out.println("isEnum : "+ c.isEnum());
